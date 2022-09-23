@@ -51,7 +51,7 @@ export default function Home() {
 
         <button
           type="button"
-          className="inline-flex items-center px-4 py-2 text-sm font-medium text-indigo-700 bg-indigo-100 border border-transparent rounded-md w-fit hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
+          className="inline-flex items-center px-4 py-2 text-base font-medium text-black bg-blue-300 border border-transparent rounded-md w-fit hover:bg-indigo-200 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2"
           onClick={isScanning ? cancelScanning : startScanning}
         >
           {isScanning ? 'Cancel' : 'Scan!'}
