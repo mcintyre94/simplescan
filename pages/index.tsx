@@ -57,7 +57,7 @@ export default function Home() {
           {isScanning ? 'Cancel' : 'Scan!'}
         </button>
 
-        <p className={`text-lg ${scannedUrlColour}`}>{scannedUrl}</p>
+        <p className={`text-lg break-all ${scannedUrlColour}`}>{scannedUrl}</p>
       </main>
     </div >
   )
